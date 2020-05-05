@@ -45,3 +45,22 @@ form > * {
 #btn:hover {
     background-color: #9ccc65;
 }
+
+p.loading {
+    color: #9ccc65;
+}
+
+p.success {
+    color: #fb8c00;
+}
+
+p.error {
+    color: #f44336;
+}
+
+p#loc {
+    border: none;
+    font-size: 80%;
+    margin-left: 40px;
+    margin-top: -5px;
+}
