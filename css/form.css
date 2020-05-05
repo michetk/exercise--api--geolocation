@@ -1,0 +1,47 @@
+body {
+    margin: 30px;
+    padding: 20px;
+}
+
+h1::after {
+    content: "";
+    background-color: #fb8c00;
+    border: 1px solid #fb8c00;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #424242;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    padding: 20px;
+    border: 1px solid #8bc34a;
+    width: 250px;
+    border-radius: 60px 20px 60px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form > * {
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    border: 1px solid #bdbdbd;
+    border-radius: 2px;
+}
+
+#btn {
+    margin: 5px 40px 5px auto;
+    background-color: #8bc34a
+}
+
+#btn:hover {
+    background-color: #9ccc65;
+}
